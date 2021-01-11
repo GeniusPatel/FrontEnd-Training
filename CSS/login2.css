@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: darkblue;
+    opacity: 0.8;
+    padding: 20px 10%;
+    overflow: auto;
+}
+
+#footer {
+    background-color: darkblue;
+    opacity: 0.8;
+    color: white;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+section {
+    overflow: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    background-image: url(BGLogin2.jpg);
+    background-repeat: no-repeat;
+}
+
+#title {
+    color: white;
+    padding-top: 10px;
+}
+
+#headContent {
+    color: white;
+    padding-top: 7px;
+}
+
+#user,
+#id {
+    padding: 0px 20px;
+}
+
+#fpswd:hover {
+    color: orangered;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#btn {
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color: darkgray;
+    color: black;
+}
+
+#btn:hover {
+    background-color: royalblue;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+}
+
+#body1 {
+    width: 49%;
+}
+
+#body1 p {
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#body2 {
+    width: 48%;
+}
+
+#body2 label,
+p {
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#fname,
+#bdate,
+#email,
+#college {
+    width: 60%;
+}
+
+#reset,
+#submit {
+    width: 30%;
+}
+
+#submit {
+    margin-left: 5px;
+}
+
+.fRight {
+    float: right;
+}
+
+.fLeft {
+    float: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
