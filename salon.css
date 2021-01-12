@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+
+.header1 {
+    background-color: darkgray;
+    overflow: auto;
+    padding: 10px 10px 10px 30px;
+}
+
+.header2 {
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 30px;
+    overflow: hidden;
+}
+
+.header2 .mainHead:hover {
+    color: lightsalmon;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.header2 ul li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.header2 ul li:hover {
+    color: lightsalmon;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.header2 ul {
+    margin-top: 20px;
+}
+
+#subHead {
+    padding-left: 15px;
+}
+
+section {
+    margin-top: 15px;
+    overflow: auto;
+}
+
+img {
+    width: 100%;
+    margin: 0;
+}
+
+.row {
+    margin: auto;
+}
+
+.column {
+    margin: 0px;
+    float: left;
+    width: 32%;
+    padding: 10px;
+    opacity: 0.7;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.column:hover {
+    opacity: 1;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-size: xx-large;
+    border: 5px solid white;
+    padding: 20px;
+}
+
+.centered:hover {
+    border: 5px solid black;
+    background-color: slategray;
+    opacity: 0.8;
+    color: black;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    border-top: 1px solid darkgray;
+    padding: 50px 20px;
+    margin-top: 10px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+}
+
+a {
+    color: black;
+}
+
+.fRight {
+    float: right;
+}
+
+.fLeft {
+    float: left;
+}
