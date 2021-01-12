@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(BGLogin1.jpg);
+    font-family: 'Arial';
+}
+
+.login {
+    width: 380px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 60px 80px;
+    background: lightgray;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+label {
+    color: black;
+    font-size: 17px;
+}
+
+#Uname {
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 6px;
+    padding-left: 8px;
+}
+
+#Pass {
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding-left: 8px;
+}
+
+select {
+    width: 95%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding-left: 8px;
+}
+
+#log {
+    width: 97%;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: black;
+    background-color: cornflowerblue;
+}
+
+#log:hover {
+    background-color: darkblue;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    cursor: pointer;
+}
+
+span {
+    color: black;
+    font-size: 17px;
+}
+
+#check {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+#forgotPass {
+    margin-left: 25%;
+    float: left;
+}
+
+#forgotPass:hover {
+    font-style: italic;
+}
