@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JavaScript</title>
+
+    <script>
+        function day() {
+
+            document.getElementById("image").src = "images/day.jpg";
+        }
+
+        function night() {
+
+            document.getElementById("image").src = "images/night.jpg";
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <button type="button" onclick="day()">Day Time</button>
+
+    <button type="button" onclick="night()">Night Time</button>
+    <br>
+    <br>
+
+    <img id="image" src="images/day.jpg" alt="Day Time" style="height: 90vh; width: 100%;">
+
+</body>
+
+</html>
