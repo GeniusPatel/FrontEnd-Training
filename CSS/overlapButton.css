@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    margin: 10px;
+    background-color: darkblue;
+    color: white;
+    font-size: medium;
+    font-style: italic;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 30px 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#login {
+    padding: 10px;
+    align-content: center;
+}
+
+#close {
+    float: right;
+}
+
+iframe {
+    margin-left: 15px;
+    width: 98%;
+    height: 90vh;
+}
+
+.popup {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    display: none;
+    background-color: white;
+}
