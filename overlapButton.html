@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlapping Window from Button in JS</title>
+
+    <link rel="stylesheet" href="CSS/overlapButton.css">
+
+</head>
+
+<body>
+
+    <button class="btn" type="button" id="login" onclick="openWindow()">Click here to Login!!!</button>
+
+    <div id="window" class="popup">
+
+        <button class="btn" id="close" type="button" onclick="closeWindow()">Close...X</button>
+
+        <br>
+        <br>
+
+        <iframe src="Login1.html"></iframe>
+    </div>
+
+    <script>
+        function openWindow() {
+
+            document.getElementById("window").style.display = 'block';
+
+        }
+
+        function closeWindow() {
+
+            document.getElementById("window").style.display = 'none';
+
+        }
+    </script>
+
+</body>
+
+</html>
