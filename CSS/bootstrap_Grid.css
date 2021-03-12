@@ -1,0 +1,13 @@
+.columns {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.cntnr {
+    padding: .75rem;
+    margin-bottom: 1.5rem;
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
